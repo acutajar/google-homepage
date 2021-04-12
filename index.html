@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<style>
+
+    body {
+        color: black;
+        font-size: 11pt;
+        font-family: arial, sans-serif;
+    }
+
+    .header-container {
+        display: flex;
+        height: 48px; 
+        align-items: center;
+        padding: 6px;
+    }
+
+    .headerfooter-links {
+       padding: 6px;
+       text-decoration: none;
+    }
+    .headerfooter-spaced {
+        flex-grow: 1;
+        min-width: 100px;
+        padding: 6px;
+        text-align: end;
+        text-decoration: none;
+    } 
+
+    a {
+        color: black;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 200px;
+        }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+        }
+
+        
+
+
+    .bottom-footer-container {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 48px; 
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px;
+    }
+    
+</style>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <div class="header-container">
+        <div>
+            <a  class="headerfooter-links" href="">About</a>
+            <a class="headerfooter-links" href="">Store</a> 
+        </div>
+        <div class="headerfooter-spaced">
+            <a class="headerfooter-spaced" href="">Gmail</a> 
+        </div>
+        <div>
+            <a class="headerfooter-links" href="">Images</a> 
+            <a class="headerfooter-links" href="">apps</a> 
+            <a class="headerfooter-links" href="">Profile</a> 
+        </div>
+    </div>  
+</head>
+
+
+<body></body>
+
+    <div class="logo-container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+     </div>
+    <form class="form-container">
+        <input type="search">
+            <div>
+                <button type="button">Search</button>
+                <button type="button">I'm feeling lucky</button>
+            </div>
+
+    </form>
+        
+       <div class="bottom-footer-container">
+        <a  class="headerfooter-links" href="">Advertising</a>
+        <a  class="headerfooter-links" href="">Business</a>
+        <a  class="headerfooter-links" href="">How Search works</a>        
+        <a  class="headerfooter-spaced" href="">Privacy</a>
+        <a  class="headerfooter-links" href="">Terms</a>
+        <a  class="headerfooter-links" href="">Settings</a>
+       </div>
+    </div>
+
+</body>
+</html>
